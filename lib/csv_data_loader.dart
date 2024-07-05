@@ -3,6 +3,7 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/services.dart';
 
 class CSVDataLoader {
+  List<BarChartGroupData> rodData = [];
   List<FlSpot> spots = [];
   List<List<dynamic>> data = [];
 
@@ -15,7 +16,14 @@ class CSVDataLoader {
       for (int i = 1; i < data.length; i++) {
         double humidity = double.parse(data[i][2].toString());
         double temperature = double.parse(data[i][1].toString());
+        double windSpeed = double.parse(data[i][4].toString());
         spots.add(FlSpot(temperature, humidity));
+        rodData.add(BarChartGroupData(
+          x: i,
+          barRods: [
+            BarChartRodData(toY: windSpeed),
+          ],
+        ));
       }
     } on FormatException catch (e) {
       print('Error parsing CSV data: ${e.message}');
@@ -27,5 +35,9 @@ class CSVDataLoader {
 
   List<FlSpot> getSpots() {
     return spots;
+  }
+
+  List<BarChartGroupData> getRodData() {
+    return rodData;
   }
 }

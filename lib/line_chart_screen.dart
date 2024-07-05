@@ -22,45 +22,33 @@ class LineChartScreen extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(height: 30),
+              const SizedBox(height: 30),
               AspectRatio(
                 aspectRatio: 0.6,
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
+                child: Container(
+                  color: Colors.transparent,
+                  padding: const EdgeInsets.all(16.0),
                   child: LineChart(
                     LineChartData(
-                      minX: 22,
-                      maxX: 31,
-                      minY: 50,
+                      minX: 18,
+                      maxX: 27,
+                      minY: 55,
                       maxY: 80,
                       titlesData: const FlTitlesData(
                           leftTitles: AxisTitles(
-                            axisNameWidget: Text(
-                              'Humidity',
-                              style: TextStyle(
-                                  fontSize: 16, fontWeight: FontWeight.bold),
-                            ),
-                            sideTitles: SideTitles(showTitles: true),
+                            sideTitles:
+                                SideTitles(showTitles: true, reservedSize: 40),
                           ),
                           bottomTitles: AxisTitles(
-                            axisNameWidget: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: const [
-                                Text(
-                                  'Temperature ',
-                                  style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Icon(Icons.thermostat_rounded, size: 16),
-                              ],
-                            ),
-                            sideTitles: SideTitles(showTitles: true),
+                            sideTitles:
+                                SideTitles(showTitles: true, reservedSize: 40),
                           ),
                           rightTitles: AxisTitles(
+                            axisNameWidget: Text('Humidity'),
                             sideTitles: SideTitles(showTitles: false),
                           ),
                           topTitles: AxisTitles(
+                              axisNameWidget: Text('Temperature'),
                               sideTitles: SideTitles(showTitles: false))),
                       lineBarsData: [
                         LineChartBarData(
@@ -87,11 +75,11 @@ class LineChartScreen extends StatelessWidget {
                         show: true,
                         border: const Border(
                           bottom: BorderSide(
-                            color: Colors.black,
+                            color: Colors.black54,
                             width: 0.8,
                           ),
                           left: BorderSide(
-                            color: Colors.black,
+                            color: Colors.black54,
                             width: 0.8,
                           ),
                           right: BorderSide(
@@ -101,6 +89,9 @@ class LineChartScreen extends StatelessWidget {
                             color: Colors.transparent,
                           ),
                         ),
+                      ),
+                      gridData: const FlGridData(
+                        show: true,
                       ),
                     ),
                   ),
