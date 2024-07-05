@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.18.0"
+  csv:
+    dependency: "direct main"
+    description:
+      name: csv
+      sha256: c6aa2679b2a18cb57652920f674488d89712efaf4d3fdf2e537215b35fc19d6c
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.0"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -49,6 +57,142 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.8"
+  d4:
+    dependency: "direct main"
+    description:
+      name: d4
+      sha256: f39a6c40c6211a2b815fb455396156ca7504d5321d3cc3c12474519c386510dd
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.0"
+  d4_array:
+    dependency: transitive
+    description:
+      name: d4_array
+      sha256: dac8e1edc9e26dab0433c0e005d8dc42e5bcc43d22e9add528a95eaf770176e9
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  d4_color:
+    dependency: transitive
+    description:
+      name: d4_color
+      sha256: cc72a0e4fd721d2fd1f28fe0f838898498b789f3ffd00c1230e60cafd3b0e9d6
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  d4_dsv:
+    dependency: transitive
+    description:
+      name: d4_dsv
+      sha256: "445dd6778dc805fcd5d2e0bfc5ade0a97713972357406b14c97b9d61c19351e1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  d4_format:
+    dependency: transitive
+    description:
+      name: d4_format
+      sha256: fc9a7853476c920de4f8144be5fd62dc8c61afe99a46e8bda93ce312d73ad33a
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  d4_geo:
+    dependency: transitive
+    description:
+      name: d4_geo
+      sha256: a075ecb33d7cb92ab6aad90622bcfac20ee5530224c5bf1d77377cf3cf31f9c1
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
+  d4_geo_parse:
+    dependency: transitive
+    description:
+      name: d4_geo_parse
+      sha256: ccde7290db93cce8fc185706e9445909a4ca268873fd82945a70dcbff03d61a6
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
+  d4_interpolate:
+    dependency: transitive
+    description:
+      name: d4_interpolate
+      sha256: "5efe7a4df625c35fa549cf3c44700126fa88b2d48bf108a177aab0749f64a626"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.4"
+  d4_path:
+    dependency: transitive
+    description:
+      name: d4_path
+      sha256: "703310bd47eeb7c52ea10c0b900e8d8e601ef426e69cfc35b0399e8d1ec0fbf2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  d4_polygon:
+    dependency: transitive
+    description:
+      name: d4_polygon
+      sha256: "71ae991b5b3bc0729c63c0afc47ad990580c344fff25e0250af881509e00a981"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  d4_random:
+    dependency: transitive
+    description:
+      name: d4_random
+      sha256: "5aa1409a317b45ed8f7e7744b302541098434a3b0944075de13b4c504def2925"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  d4_scale:
+    dependency: transitive
+    description:
+      name: d4_scale
+      sha256: da8615506a6e246c8cc860a9327656e8a80f8c6ddb790509d96f4da074515878
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
+  d4_scale_chromatic:
+    dependency: transitive
+    description:
+      name: d4_scale_chromatic
+      sha256: dac9344c6e4bc73cd0525347b32c7570c415153266884f3bb1d3f887c5effac1
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  d4_shape:
+    dependency: "direct main"
+    description:
+      name: d4_shape
+      sha256: c577cc7fc8d887defa5789b5a380622b10bb24acd78e4e6a23b161b967962d8d
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  d4_time:
+    dependency: transitive
+    description:
+      name: d4_time
+      sha256: "30fb4deda3c5418cf4258a6881d22ed447a5baaef4f8bd6f5238d0c7d0e33a03"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  d4_time_format:
+    dependency: transitive
+    description:
+      name: d4_time_format
+      sha256: "680ab4e327d68d177f052f18bb0787317ab5dffd761a15ae270481537377631a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  equatable:
+    dependency: transitive
+    description:
+      name: equatable
+      sha256: c2b87cb7756efdf69892005af546c56c0b5037f54d2a88269b4f347a505e3ca2
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.5"
   fake_async:
     dependency: transitive
     description:
@@ -57,6 +201,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
+  fl_chart:
+    dependency: "direct main"
+    description:
+      name: fl_chart
+      sha256: d0f0d49112f2f4b192481c16d05b6418bd7820e021e265a3c22db98acf7ed7fb
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.68.0"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -75,6 +227,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  jsontool:
+    dependency: transitive
+    description:
+      name: jsontool
+      sha256: "7741060cd6615ae82b07d70ebeca6fa6402b1c5cc1e801054911918300a780ac"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.0"
   leak_tracker:
     dependency: transitive
     description:
@@ -139,6 +299,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  plugin_platform_interface:
+    dependency: transitive
+    description:
+      name: plugin_platform_interface
+      sha256: "4820fbfdb9478b1ebae27888254d445073732dae3d6ea81f0b7e06d5dedc3f02"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.8"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -192,6 +360,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.0"
+  topo_client:
+    dependency: transitive
+    description:
+      name: topo_client
+      sha256: "6b47c0e89c80faf36e23615bb9ebcc10c42384815bb58545d88990d1906d3395"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.4"
+  topo_parse:
+    dependency: transitive
+    description:
+      name: topo_parse
+      sha256: "4683a67d3811349bd294d5df64d6e19dc180c5cfc606bdd62b9840de4265bbe3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   vector_math:
     dependency: transitive
     description:
@@ -208,6 +392,38 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "14.2.1"
+  webview_flutter:
+    dependency: "direct main"
+    description:
+      name: webview_flutter
+      sha256: "6869c8786d179f929144b4a1f86e09ac0eddfe475984951ea6c634774c16b522"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.8.0"
+  webview_flutter_android:
+    dependency: transitive
+    description:
+      name: webview_flutter_android
+      sha256: f42447ca49523f11d8f70abea55ea211b3cafe172dd7a0e7ac007bb35dd356dc
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.16.4"
+  webview_flutter_platform_interface:
+    dependency: transitive
+    description:
+      name: webview_flutter_platform_interface
+      sha256: d937581d6e558908d7ae3dc1989c4f87b786891ab47bb9df7de548a151779d8d
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.10.0"
+  webview_flutter_wkwebview:
+    dependency: transitive
+    description:
+      name: webview_flutter_wkwebview
+      sha256: "7affdf9d680c015b11587181171d3cad8093e449db1f7d9f0f08f4f33d24f9a0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.13.1"
 sdks:
   dart: ">=3.4.3 <4.0.0"
-  flutter: ">=3.18.0-18.0.pre.54"
+  flutter: ">=3.22.0"
