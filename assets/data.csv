@@ -1,12 +1,12 @@
-Date,Temperature,Humidity,Condition
-2024-07-01,25,60,Sunny
-2024-07-02,27,55,Partly Cloudy
-2024-07-03,22,70,Rainy
-2024-07-04,30,50,Sunny
-2024-07-05,28,65,Cloudy
-2024-07-06,26,75,Rainy
-2024-07-07,24,80,Thunderstorms
-2024-07-08,29,60,Sunny
-2024-07-09,31,55,Hot
-2024-07-10,23,65,Cloudy
-2024-07-11,25,70,Rainy
+Date,Temperature (°C),Humidity (%),Condition,Wind Speed (km/h),Precipitation (mm)
+2024-07-03,22,70,Rainy,5,12
+2024-07-10,23,65,Cloudy,10,0
+2024-07-07,24,80,Thunderstorms,25,20
+2024-07-01,25,60,Sunny,15,0
+2024-07-11,25.5,70,Rainy,7,10
+2024-07-06,26,75,Rainy,8,15
+2024-07-02,27,55,Partly Cloudy,10,0
+2024-07-05,28,65,Cloudy,12,0
+2024-07-08,29,60,Sunny,18,0
+2024-07-04,30,50,Sunny,20,0
+2024-07-09,31,55,Hot,22,0
